@@ -4,13 +4,11 @@ function rand(){
 
 let nums = [rand(), rand(), rand(), rand()]
 
-// Kini - 1st rand Handling user interactions (click, hover, submit)
-// Joel - 2nd rand Event listeners
-// Akanimo - 3rd rand Introduction to events
-// Bla - 4th rand Event propagation and bubbling
+// Kini - 1st rand Handling user interactions (click, hover, submit) - 3
+// Joel - 2nd rand Event listeners - 2
+// Akanimo - 3rd rand Introduction to events - 1
+// Bla - 4th rand Event propagation and bubbling - 4
 
 console.log(nums);
 
 let max_number = Math.max(...nums);
-
-console.log(max_number)
