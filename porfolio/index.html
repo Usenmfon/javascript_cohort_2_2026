@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Doe | JavaScript Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="John Doe home">
+        <span class="brand-icon">&lt;/&gt;</span>
+        <span>John Doe</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode">Dark</button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>John Doe</h1>
+          <h2><span>JavaScript</span> Developer</h2>
+          <p class="intro">
+            I'm a JavaScript student passionate about building interactive and responsive web
+            applications. I love turning ideas into real projects and continuously learning new
+            technologies.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View My Projects <span>-&gt;</span></a>
+            <a class="btn btn-secondary" href="#contact">Contact Me <span>@</span></a>
+          </div>
+
+          <div class="social-links" id="social-links" aria-label="Social links"></div>
+        </div>
+
+        <div class="hero-visual" aria-label="Profile picture">
+          <div class="dot-pattern"></div>
+          <div class="loop"></div>
+          <div class="portrait-card">
+            <img src="profile_picture_1.png" alt="John Doe smiling" />
+          </div>
+          <div class="availability">
+            <span></span>
+            <p>Open to<br />opportunities</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="split-grid">
+        <article class="panel" id="about">
+          <h2 class="section-title">About Me</h2>
+          <p>
+            I'm a passionate and curious JavaScript student who enjoys building clean and
+            user-friendly web applications. I love solving problems through code and learning new
+            tools that help me grow as a developer.
+          </p>
+          <div class="mini-stats" id="stats"></div>
+        </article>
+
+        <article class="panel" id="skills">
+          <h2 class="section-title">My Skills</h2>
+          <div class="skills-grid" id="skills-list"></div>
+        </article>
+      </section>
+
+      <section class="panel projects-panel" id="projects">
+        <div class="section-heading">
+          <h2 class="section-title">Featured Projects</h2>
+          <a href="#projects">View all projects <span>-&gt;</span></a>
+        </div>
+        <div class="projects-grid" id="projects-list"></div>
+      </section>
+
+      <section class="panel journey-panel">
+        <h2 class="section-title">My Learning Journey</h2>
+        <div class="journey" id="journey-list"></div>
+      </section>
+
+      <section class="bottom-grid">
+        <article class="panel education-panel">
+          <h2 class="section-title">Education</h2>
+          <div class="education-item">
+            <span class="large-icon">ED</span>
+            <div>
+              <h3>B.Sc. in Computer Science</h3>
+              <p>University of Technology</p>
+              <p>2023 - Present</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel">
+          <h2 class="section-title">Certifications</h2>
+          <ul class="cert-list" id="certifications"></ul>
+        </article>
+
+        <article class="panel contact-panel" id="contact">
+          <div>
+            <h2 class="section-title">Let's Connect</h2>
+            <p>
+              I'm open to internship opportunities and exciting projects. Let's build something
+              great together!
+            </p>
+            <div class="contact-list" id="contact-list"></div>
+          </div>
+
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" aria-label="Your name" />
+            <input type="email" placeholder="Your Email" aria-label="Your email" />
+            <textarea placeholder="Your Message" aria-label="Your message"></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 John Doe. All rights reserved.</p>
+      <a href="#home" aria-label="Back to top">^</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
