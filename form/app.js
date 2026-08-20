@@ -20,6 +20,6 @@ formEle.addEventListener('submit', function(event){
     data = Object.fromEntries(formData.entries());
 
     console.log(data);
-
+    
     formEle.reset();
 });
