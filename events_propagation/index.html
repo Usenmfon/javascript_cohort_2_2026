@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    div {
+      border: solid red 10px;
+      height: 500px;
+      width: 500px;
+    }
+
+    p {
+      border: solid black 5px;
+      height: 50%;
+      width: 50%;
+    }
+  </style>
+  <body>
+    <div>
+      <p onclick="alert('The child')">Click on the boxes below to see event propagation in action.</p>
+    </div>
+
+    <script src="event_bubbling.js"></script>
+    <!-- <script src="event_capturing.js"></script> -->
+  </body>
+</html>
