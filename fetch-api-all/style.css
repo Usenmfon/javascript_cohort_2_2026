@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 0 0 20px;
+}
+
+
+div{
+    height: 150px;
+    width: 400px;
+    border: solid black 5px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 0.7rem;
+}
