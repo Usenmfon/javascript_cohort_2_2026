@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    height: 100%;
+    width: 270px;
+    border: solid;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.address {
+    color: rgb(220, 114, 114)
+}
+
+.company {
+    color: rgb(133, 133, 222);
+}
