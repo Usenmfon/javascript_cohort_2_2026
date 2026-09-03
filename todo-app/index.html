@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <header>My Todos</header>
+
+      <form action="">
+        <input type="text" name="title" id="title" placeholder="Add a task" />
+        <textarea
+          name="description"
+          id="description"
+          placeholder="Optional details"
+        ></textarea>
+        <button type="submit">Add Todo</button>
+      </form>
+
+      <ul id="todo-list" class="todo-list"></ul>
+    </main>
+
+    <template id="todo-template">
+      <li class="todo-item">
+        <label for="todo-check">
+          <input type="checkbox" />
+        </label>
+
+        <div class="todo-content">
+          <input class="edit-title" type="text" />
+          <textarea class="edit-description"></textarea>
+        </div>
+        <div class="todo-actions">
+          <button type="button" class="update">Update</button>
+          <button type="button" class="delete">Delete</button>
+        </div>
+      </li>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
